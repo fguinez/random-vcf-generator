@@ -33,8 +33,8 @@ def generate_contact(name, number):
 
 def generate_vcf(filename,  prefix, n, i=1):
     vcf = ""
-    lenN = len(str(n))
-    for x in range(1, n+1):
+    lenN = len(str(i+n))
+    for x in range(i, i+n):
         name = prefix + f"%0{lenN}d"%x
         number = get_random_number(n_digit=8)
         vcf += generate_contact(name, number)
