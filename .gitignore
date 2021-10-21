@@ -1,4 +1,8 @@
 
+# Others
+*.vcf
+*.webloc
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudio,visualstudiocode,vim,sublimetext,macos,osx,windows,linux,git
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudio,visualstudiocode,vim,sublimetext,macos,osx,windows,linux,git
 
